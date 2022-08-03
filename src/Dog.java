@@ -6,6 +6,6 @@ public class Dog extends Pet {
 
     @Override
     public void describe() {
-        System.out.println(this.name + "says bark! He is " + this.age + " years old.");
+        System.out.println(this.name + " says bark! He is " + this.age + " years old.");
     }
 }
