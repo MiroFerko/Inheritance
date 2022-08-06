@@ -5,5 +5,6 @@ public class Inheritance {
 
         myDog.describe();
         myCat.describe();
+        System.out.println();
     }
 }
