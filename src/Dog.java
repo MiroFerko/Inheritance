@@ -1,20 +1,18 @@
-public class Dog implements Pet {
+public class Dog extends Pet {
 
-    String name;
-    int age;
 
     public Dog(String name, int age) {
-        this.name=name;
-        this.age=age;
+        super(name, age);
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
 
-    public int getAge(){
+    public int getAge() {
         return this.age;
     }
+
     @Override
     public void describe() {
         System.out.println(this.name + " says bark! He is " + this.age + " years old.");
