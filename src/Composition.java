@@ -15,5 +15,6 @@ public class Composition {
 
         System.out.println(per1.getName() + " has a pet named " + per1.getPet().getName());
         System.out.println(per2.getName() + " has a pet named " + per2.getPet().getName());
+
     }
 }
