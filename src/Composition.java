@@ -3,10 +3,6 @@ public class Composition {
         Dog myDog = new Dog("Benny", 2);
         Cat myCat = new Cat("Gargfield", 3);
 
-
-
-
-
         myDog.describe();
         myCat.describe();
         System.out.println();
