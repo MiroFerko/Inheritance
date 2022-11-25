@@ -4,6 +4,7 @@ public class Composition {
         Cat myCat = new Cat("Gargfield", 3);
 
 
+
         myDog.describe();
         myCat.describe();
         System.out.println();
